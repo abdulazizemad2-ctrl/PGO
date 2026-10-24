@@ -7,3 +7,8 @@
 - قناة التليجرام: https://t.me/molaksat_aboemad
 
 الموقع صفحة واحدة (`index.html`) بلا أي اعتماديات، ويمكن نشره عبر GitHub Pages.
+
+
+## الأسئلة التطبيقية
+
+اختبار تفاعلي من 247 سؤالاً تطبيقياً (قضايا): https://abdulazizemad2-ctrl.github.io/PGO/applied.html

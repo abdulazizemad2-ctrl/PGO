@@ -235,7 +235,7 @@ function home(){
   <div class="row" style="justify-content:space-between;margin-top:8px">
     <button class="btn ghost" id="reset">مسح سجل تقدمي</button>
   </div>
-  <div class="foot">الأسئلة من تجميعات الطلاب وقنوات مجتمع الحقوق، وتنسيق ملخصات أبو عماد · <a href="https://t.me/molaksat_aboemad" target="_blank" rel="noopener">قناة التليجرام</a></div>`;
+  <div class="foot">الأسئلة من تجميعات الطلاب وقنوات مجتمع الحقوق، وتنسيق ملخصات أبو عماد · <a href="https://t.me/molaksat_aboemad" target="_blank" rel="noopener">قناة التليجرام</a><br><a href="applied.html">⬅ الأسئلة التطبيقية (247 قضية)</a></div>`;
   ["instant","shuf","tf"].forEach(k => $("#o-"+k).addEventListener("change", e => store.set(k, e.target.checked)));
   app.querySelectorAll(".mode").forEach(b => b.addEventListener("click", () => startMode(b.dataset.m)));
   const upd = () => { const sel=[...app.querySelectorAll(".sc:checked")].map(x=>+x.value);
